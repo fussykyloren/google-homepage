@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap")
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    /*padding: 15px 0;*/
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.right-nav li {
+    padding-top: 10px;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+ul li a {
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+
+.center-container {
+    padding-top: 10px;
+}
+
+.google-logo-container {
+    margin-top: 11vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+li.about-nav{
+    position: relative;
+    padding-left: 0px;
+}
+
+li.apps-nav {
+    position: relative;
+    top: -5px;
+}
+
+li.profile-nav {
+    position: relative;
+    top: -25px;
+}
+
+#search-form {
+    background: url("images/search.png") 3% 50% no-repeat;
+    margin: 0 auto;
+    width: 550px;
+    height: 6vh;
+    padding-left: 44px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 25px;
+    display: block;
+}
+
+#search-form:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar {
+    width: 515px;
+    height: 5vh;
+    padding-top: 3px;
+    display: block;
+    border: 0!important;
+}
+
+#mic-img {
+    position: relative;
+    height: 24px;
+    width: 24px;
+    top: -30px;
+    right: -900px;
+    display: block;
+}
+
+.buttons {
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.buttons input[type=submit] {
+    color: #5F6368;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.covid-thanks {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    color: rgba(0,0,0,0.50);
+    background: #F2F2F2;
+}
+
+footer ul {
+    display: flex;
+}
+
+.settings {
+    padding-right: 25px;
+}
