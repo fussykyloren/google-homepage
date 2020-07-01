@@ -47,10 +47,16 @@
                 <img src="images/mic.png" alt="" id="mic-img" name="mic-img">
             </div>
             <div class="buttons">
-                <input type="submit" class="google-search" value="Google Search">
-                <input type="submit" class="lucky-search" value="I'm Feeling Lucky">
+                <input type="button" class="google-search" value="Google Search" onclick="redirectToSearch();">
+                <script type = "text/javascript">
+                    function redirectToSearch(addOn = "") {
+                        var searchQuery = document.getElementById("search-bar").value;
+                        var webAddress = "https://www.google.com/search?q=" + searchQuery + addOn;
+                        window.location.href = webAddress;
+                    };
+                </script>
+                <input type="button" class="lucky-search" value="I'm Feeling Lucky" onclick="redirectToSearch('&btnI');">
             </div>
-            <p class="covid-thanks">To public health workers and to researchers in the scientific community, thank you</p>
         </div>
         
     </div>

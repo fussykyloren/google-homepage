@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap")
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap)
 
 * {
     box-sizing: border-box;
@@ -96,8 +96,8 @@ li.profile-nav {
     position: relative;
     height: 24px;
     width: 24px;
-    top: -30px;
-    right: -900px;
+    top: -37px;
+    right: -1090px;
     display: block;
 }
 
@@ -107,7 +107,7 @@ li.profile-nav {
     top: -10px;
 }
 
-.buttons input[type=submit] {
+.buttons input[type=button] {
     color: #5F6368;
     border: 1px solid #F2F2F2;
     border-radius: 4px;
